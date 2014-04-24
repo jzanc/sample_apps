@@ -1,0 +1,23 @@
+#4.6.1
+def string_shuffle(s)
+  s.split('').shuffle.join
+end
+
+#4.6.2
+class String
+  def shuffle
+    self.split('').shuffle.join
+  end
+end
+
+#4.6.3
+person1 = {first: "Stan", last: "Johnson"}
+person2 = {first: "Nancy", last: "Johnson"}
+person3 = {first: "Fiona", last: "Johnson"}
+params  = {}
+params[:father] = person1
+params[:mother] = person2
+params[:child] = person3
+
+
+
